@@ -1,0 +1,67 @@
+.Register {
+    background-color: var(--background-color);
+}
+.Register .register-container{
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.Register .form-control {
+    background-color: #fff;
+    padding: 1.3rem 3rem 3rem 3rem;
+    width: 514.4px;
+}
+
+.Register .error {
+    color: var(--danger-color);
+}
+
+/* -- btn --- */
+.Register .btn {
+    border: none;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1rem;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.4s ease;
+    font-size: 15px;
+}
+
+.Register  .input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.Register .btn-dark {
+    margin-top: 1.5rem;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.Register .btn-dark:hover {
+    background-color: #475047;
+}
+.Register .btn-dark:active {
+    background-color: #363e36;
+}
+
+
+/* -- Register top -- */
+.Register .fa-solid {
+    color: #000;
+    font-size: 1.4rem;
+}
+
+.Register h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.Register .sm-text {
+    text-align: center;
+    margin-bottom: 3rem;
+}

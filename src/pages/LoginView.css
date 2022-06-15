@@ -1,0 +1,74 @@
+
+.LoginView .login-container{
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.LoginView .form-control {
+    background-color: #fff;
+    padding: 3rem;
+}
+.LoginView .error {
+    color: red;
+}
+/* -- btn --- */
+.LoginView .btn {
+    border: none;
+    width: 40%;
+    padding: 1em;
+    margin-bottom: .5rem;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.4s ease;
+}
+.LoginView .input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.LoginView .btn-dark {
+    margin-top: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.LoginView .btn-dark:hover {
+    background-color: #475047;
+}
+.LoginView .btn-dark:active {
+    background-color: #363e36;
+}
+
+.LoginView .btn-light {
+    border: 3px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: #fff;
+}
+.LoginView .btn-light:hover {
+    background-color: rgb(240, 188, 67);
+    color: #fff;
+}
+.LoginView .btn-light:active {
+    background-color: #363e36;
+    border: 3px solid #363e36;
+    border: none;
+}
+
+/* -- Login top -- */
+.LoginView .fa-solid {
+    color: #000;
+    font-size: 1.4rem;
+}
+
+.LoginView h1 {
+    
+    text-align: center;
+    margin: 1.3rem;
+}
+.LoginView p {
+    text-align: center;
+    margin-bottom: 3rem;
+}
